@@ -81,11 +81,13 @@
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\CircleFire.cs" />
     <Compile Include="Assets\Scripts\CircleMove.cs" />
+    <Compile Include="Assets\Scripts\Controller_Time.cs" />
     <Compile Include="Assets\Scripts\DashMove.cs" />
     <Compile Include="Assets\Scripts\LaserRotation.cs" />
     <Compile Include="Assets\Scripts\Room.cs" />
     <Compile Include="Assets\Scripts\SLRange.cs" />
     <Compile Include="Assets\Scripts\SceneMoveManage.cs" />
+    <Compile Include="Assets\Scripts\TimeSpeed.cs" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
