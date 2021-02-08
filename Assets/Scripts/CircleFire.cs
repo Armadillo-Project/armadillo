@@ -55,7 +55,7 @@ public class CircleFire : MonoBehaviour
 
         if ((Input.GetMouseButtonUp(0)))     // 마우스 클릭
         {
-            if(selectNum == 0)               // 1번 선택
+            if(selectNum == 0)               // 1번, 3번 선택
             {
                 for (int i = 0; i < shotNum; i++)
                 {
