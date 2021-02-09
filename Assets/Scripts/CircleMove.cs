@@ -6,7 +6,7 @@ using UnityEngine;
 // 1번 원형 탄막 이동
 public class CircleMove : MonoBehaviour
 {
-    CircleFire bulletFire;                                        // 탄막 생성 스크립트
+    CircleFire bulletFire;                                              // 탄막 생성 스크립트
     public GameObject bulletUnit;                                       // 탄막 유닛
     GameObject temp;                                                    // 탄막 유닛 삭제
     SpriteRenderer[] bulletSprite;                                      // 투명도 조절 스프라이트

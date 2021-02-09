@@ -34,7 +34,7 @@ public class DashMove : MonoBehaviour
     //hp바, fill area 조절
     public Slider HpBar;
     public GameObject fillArea;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -53,6 +53,12 @@ public class DashMove : MonoBehaviour
 
     void Update()
     {
+        // 보스일 경우, 플레이어 삭제
+        if (pv.OwnerActorNr == GameObject.Find("RoomManager").GetComponent<Room>().bossActorNum)
+        {
+            pv.RPC("BossOff", RpcTarget.All); // 게임 끝난 후 룸 이동할 때 켜야 함
+        }
+
         if (pv.IsMine)
         {
             if (SceneManager.GetActiveScene().name.Equals("Game Scene"))
@@ -138,6 +144,13 @@ public class DashMove : MonoBehaviour
     }
 
     [PunRPC]
+    void BossOff()
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    [PunRPC]
     void StartDash()
     {
         StartCoroutine("DashDelay"); //대시 딜레이
@@ -153,7 +166,6 @@ public class DashMove : MonoBehaviour
     void Die()
     {
         isDie = true;
-        HpBar.gameObject.SetActive(false);
         Destroy(gameObject);
     }
 

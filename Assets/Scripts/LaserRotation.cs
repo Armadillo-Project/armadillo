@@ -16,7 +16,7 @@ public class LaserRotation : MonoBehaviour
 
     private void Start()
     {
-        bulletBtn = GameObject.Find("BulletBtn").GetComponent<BulletBtn>();
+        bulletBtn = GameObject.Find("BulletBtn(Clone)").GetComponent<BulletBtn>();
 
         target = transform.position;
     }

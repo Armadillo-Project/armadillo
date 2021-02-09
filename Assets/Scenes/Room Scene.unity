@@ -1247,6 +1247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pv: {fileID: 1836651810}
+  bossActorNum: -1
   msg: {fileID: 1575095126}
   countDown: {fileID: 1384195237}
   countNum: {fileID: 1424000460}
