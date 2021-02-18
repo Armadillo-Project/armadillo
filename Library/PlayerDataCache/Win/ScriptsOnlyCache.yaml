@@ -165,31 +165,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13934}
     - Class: 114
-      Script: {instanceID: 14072}
+      Script: {instanceID: 14074}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14386}
+      Script: {instanceID: 14388}
     - Class: 114
-      Script: {instanceID: 14424}
+      Script: {instanceID: 14426}
     - Class: 114
-      Script: {instanceID: 14476}
+      Script: {instanceID: 14478}
     - Class: 114
-      Script: {instanceID: 14518}
+      Script: {instanceID: 14520}
     - Class: 114
-      Script: {instanceID: 14712}
+      Script: {instanceID: 14714}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14762}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14904}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 14924}
     - Class: 114
-      Script: {instanceID: 14958}
+      Script: {instanceID: 14960}
     - Class: 114
-      Script: {instanceID: 14978}
+      Script: {instanceID: 14980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -250,11 +250,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14768}
+      Script: {instanceID: 14770}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -325,15 +325,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13106}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14762}
     - Class: 114
-      Script: {instanceID: 14886}
+      Script: {instanceID: 14888}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,11 +386,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -505,17 +505,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14002}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14762}
     - Class: 114
-      Script: {instanceID: 14886}
+      Script: {instanceID: 14888}
     - Class: 114
-      Script: {instanceID: 14902}
+      Script: {instanceID: 14904}
     - Class: 114
-      Script: {instanceID: 14940}
+      Script: {instanceID: 14942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2146,5 +2146,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Lobby Scene.unity
   - Assets/Scenes/Room Scene.unity
   - Assets/Scenes/Game Scene.unity
-  playerPath: "C:/Users/yhyeo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/\uC544\uB974\uB9C8\uB51C\uB85C/Armadilo
-    Develop.exe"
+  playerPath: C:/Users/SS20190700004/Desktop/Armadilo Develop.exe
