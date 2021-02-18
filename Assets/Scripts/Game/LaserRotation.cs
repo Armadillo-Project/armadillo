@@ -34,7 +34,7 @@ public class LaserRotation : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name.Equals("Game Scene"))
         {
-            if(GameObject.Find("RoomManager")!=null)
+            if (GameObject.Find("RoomManager") != null)
             {
                 if (PhotonNetwork.LocalPlayer.ActorNumber == GameObject.Find("RoomManager").GetComponent<Room>().bossActorNum)
                 {
